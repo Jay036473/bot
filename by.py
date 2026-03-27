@@ -94,7 +94,7 @@ apply_css()
 # ── MT5 INIT ──────────────────────────────────────────────────
 initialized = mt5.initialize()
 if not initialized:
-    initialized = mt5.initialize(r"C:\Program Files\MetaTrader 5\terminal64.exe")
+    initialized = mt5.initialize(r\MetaTrader 5\terminal64.exe")
 if not initialized:
     st.error("❌ Failed to initialize MetaTrader 5.")
     st.error(f"Error: {mt5.last_error()}")
