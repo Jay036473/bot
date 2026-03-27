@@ -1,0 +1,8 @@
+streamlit
+numpy
+pandas
+MetaTrader5
+plotly
+scikit-learn
+tensorflow
+requests
